@@ -1,0 +1,20 @@
+Ola funcionario, seu papel é criar um bot gerenciador de um servidor de DataBase, aqui esta como ele deve funcionar:
+o Bot tera como objetivo salvar datas e informações que os usuarios precisam
+o usuario ele consegue acessar esse pode de qualquer lugar
+e o bot ele tem o comando /Save [Cofre] [Title] [Key] [Menssagem]
+e outro comando /Get [Cofre] [Title] [Key]
+o bot ele deve ter autocompletar na parte do Cofre é Title
+e ele deve Criptografar a chave na propia Menssagem,
+agora como vai funcionar:
+
+Servidor do Discord:
+  |
+  |__Canal Forum(datasaving-Cofre)
+           |
+           |__(Title)
+                  |
+                  |__(Menssagem,Key criptografada)
+
+então use a api cript_api.py para criptografar as Menssagens e a Key com a mesma api so que com uma Key pre definida (e2025*)
+resumindo um sistema para salvar textos e informaçoes de ponta e com criptografia.
+   
